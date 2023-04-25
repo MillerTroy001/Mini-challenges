@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="vending-machine">
+        <p class="total-price">Total Price: $0</p>
+        <div class="the-buttons">
+          <button class="price lime">Lime Cola $2.00</button>
+          <button class="price peanuts">Salted Peanuts $3.00</button>
+          <button class="price chocolate">Chocolate Bar $4.00</button>
+          <button class="price gummies">Fruit Gummies $6.00</button>
+        </div>
+      </section>
+      <section class="make-money">
+        <form class="money-form">
+          <label for="amount">How Many</label>
+          <input type="text" id="amount" />
+          <label for="coin">Which coin?</label>
+          <select id="coin" name="coins">
+            <option value="penny">Penny</option>
+            <option value="nickle">Nickle</option>
+            <option value="dime">Dime</option>
+            <option value="quarter">Quarter</option>
+          </select>
+          <input type="submit" />
+        </form>
+        <div class="change-container"></div>
+      </section>
+      <section class="light-bulb"></section>
+    </main>
+    <!--keep the JS at the bottom-->
+    <script src="script.js"></script>
+  </body>
+</html>
